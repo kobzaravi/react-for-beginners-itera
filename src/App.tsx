@@ -1,10 +1,12 @@
+import { Aboutme } from './Aboutme';
 import './App.css';
 import { Footer } from './FooterProps';
 
-const user = { userName: 'Vitaliy'}
+const user = { userName: 'User'}
 const App = () => (
 <div className="App">
-     <h1> hello world {user.userName}</h1>
+     <h1> Welcome! {user.userName}</h1>
+     <Aboutme/>
      <Footer copyright='C'/>
     </div>
 )
